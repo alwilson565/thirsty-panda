@@ -143,7 +143,7 @@ button a{
     max-height: 80vh;
 } 
 
-.welcomeLeft h1{
+.welcomeMain h1{
     font-size: 2em;
     padding-bottom: 3%;
     letter-spacing: 2px;
@@ -151,12 +151,12 @@ button a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.welcomeLeft h1 span{
+.welcomeMain h1 span{
     color: orange;
     
 }
 
-.welcomeLeft p{
+.welcomeMain p{
     color: gray;
     padding-bottom: 7%;
 }
@@ -184,11 +184,7 @@ section.about{
 .aboutMain{
     display: flex;
     /* border: 2px solid; */
-    margin: 0 5%;
-    margin-top: 10%;
-    
-
-    
+    margin: 0 5%;    
 }
 
 .aboutMain .aboutLeft{
@@ -328,7 +324,10 @@ section.about{
 /* footer Start */
 section.footer{
     background-color: #111;
-    margin-top: 5%;
+    margin-bottom: 2%;
+    bottom: 10;
+    width: 100%;
+    position: absolute;
 
 }
 .footer h1 span{
